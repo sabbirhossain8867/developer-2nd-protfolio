@@ -1,7 +1,42 @@
-h1{
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+.text{
     color: rgb(0, 0, 0);
+    font-size: 40px;
    
 }
 .sabbir{
+    color: #ffa500;
+    font-size: 40px;
+    width: 50%;
+}
+section{
+    display: flex;
+}
+.first-off{
+    width: 50%;
+    padding-left: 5%;
+}
+.first-off img{
+    width: 170%;
+    padding-left:120%;
+  
+   
+}
+.link-button{
+    text-decoration: none;
+    color:wheat;
+    background-color: rgb(243, 86, 86);
+    padding: 10px 30px;
+}
+.my-mission{
+    padding-left: 600px;
+     font-size: 25px;
+    
+}
+.orange-color{
     color: orange;
 }
