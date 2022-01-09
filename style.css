@@ -1,42 +1,152 @@
 body{
-    font-family: 'Lato', sans-serif;
+    margin:0;
     font-family: 'Poppins', sans-serif;
-    font-family: 'PT Serif', serif;
 }
-.text{
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-   
+/* top-banner-section */
+.top-banner{
+    margin-bottom:85px;
 }
-.sabbir{
-    color: #ffa500;
-    font-size: 40px;
-    width: 50%;
+.top-banner-inner{
+    display:flex;
+    width: 80%;
+    margin: 0 auto;
+
 }
-section{
-    display: flex;
+.top-banner-half-width{
+    width:50%;
+
 }
-.first-off{
-    width: 50%;
-    padding-left: 5%;
-}
-.first-off img{
-    width: 170%;
-    padding-left:120%;
-  
-   
+.top-banner-half-width img{
+    width: 75%;
+    padding-left: 90px;
 }
 .link-button{
+    background-color: #FF5959;
+    color: white;
     text-decoration: none;
-    color:wheat;
-    background-color: rgb(243, 86, 86);
-    padding: 10px 30px;
+    padding: 12px 40px;
+    border-radius: 4px;
+    display: inline-block;
 }
-.my-mission{
-    padding-left: 600px;
-     font-size: 25px;
-    
+#focus{
+    margin-top:85px;
 }
-.orange-color{
-    color: orange;
+#focus h1{
+    border-left: 4px #F92C8B solid;
+    border-radius: 2px;
+    font-size:55px;
+    padding-left: 8px;
+   
+}
+#focus h1 span{
+    color:#4F6592;
+}
+
+/* mission-section */
+.my-mission-inner{
+    width:80%;
+    margin:0 auto;
+}
+
+.my-mission-all{
+    display: flex;
+}
+
+.mission img{
+   width: 60%;
+}
+.mission{
+    width: 30%;
+    margin-left: 30px;
+    background: #FFEEEE;
+    border-radius: 20px;
+    padding: 20px 18px;
+}
+.mission-bg{
+    background-color: #FFD1E7;
+}
+.vission-bg{
+    background-color: #C9B9F9;
+}
+.goals-bg{
+    background-color:#C7F2B2;
+}
+.my-mission-inner h1{
+    text-align: center;
+    font-size: 45px;
+    color:#F87B3D;
+}
+.my-mission-inner h1 span{
+   color:#4F6592;
+}
+
+/* develop-section */
+.develop-inner{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+.develop-inner-left{
+    width:40%;
+ 
+}
+.develop-inner-left img{
+    width:90%;
+}
+.develop-inner-right{
+    width: 60%;
+    padding-right:20px;
+}
+
+.develop-inner-right h1{
+    font-size: 40px;
+}
+
+.develop-inner-right p{
+    margin: 10px 0px 25px;
+}
+
+  /* application-section */
+.app-inner{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f7f8fb;
+    padding: 70px 0px;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.app-inner h1{
+    font-size: 45px;
+    margin :0;
+    color:#0B0D17;
+}
+
+.app-inner p{
+    margin-bottom: 30px;
+}
+.app-inner h1 span{
+    color:#FFAD5A;
+   
+}
+
+
+/* footer-section */
+footer {
+    text-align: center;
+    background-color: #0f1749;
+    padding: 30px 0px;
+    color:white;
+    margin-top:40px;
+   
+}
+footer h1{
+    font-family: 'Lobster Two', cursive;
+    color: #566b96;
+    font-size: 35px;
+}
+footer h1 span{
+    color: #78CC4D;
 }
